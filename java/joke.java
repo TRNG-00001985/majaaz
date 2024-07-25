@@ -1,7 +1,22 @@
 
-public class joke {
-public static void main (String args[])
-{
-	System.out.print("m");
+
+
+class d {
+	
+	int i =4;
+	
+	d() {
+		
+		System.out.println("No args ctr parent");
+	}
+	
+	d(int a){
+		
+		this();
+		
+		System.out.println("Parameterised ctr parent" + a);
+		
+	}
+
 }
-}
+
