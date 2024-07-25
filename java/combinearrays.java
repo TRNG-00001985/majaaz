@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class combinearrays {
 public static void main (String args[])
 {
-	int a[]= {1,2,3};
+	int a[]= {1,22,3};
 	int b[]= {4,5,6,7,8,9};
 	int a1=a.length;
 	int b1=b.length;
@@ -17,6 +17,7 @@ public static void main (String args[])
 	{
 		c[a1+i]=b[i];
 	}
+	Arrays.sort(c);
 	
 		System.out.println(Arrays.toString(c));
 	
